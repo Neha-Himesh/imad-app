@@ -26,10 +26,10 @@ var htmlTemplate=`
  <link href='/ui/style.css' rel='stylesheet'/> </head>
  <body>
  <div class="container"> <div> <a href="/">Home</a> <hr/> </div>
-        <h3>$[heading]</h3>
-        <div>$[date]</div>
+        <h3>${heading}</h3>
+        <div>${date}</div>
         <div>
-          $[content]       
+          ${content}       
         </div>
         </div>
     </body>
